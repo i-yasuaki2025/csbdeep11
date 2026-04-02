@@ -1,19 +1,22 @@
-# csbdeep11
+# OPV Thesis Code (Yasuaki Inoue)
 
-Research code migrated from the lab server.
+This repository contains code for my doctoral research on
+organic photovoltaic (OPV) materials and devices.
 
-## Directory structure
-- src/mds: MDS-related source code
-- src/clustering: clustering-related source code
-- src/regression: regression / ML model code
-- src/preprocessing: preprocessing scripts
-- src/utils: shared helper code
-- notebooks/mds: exploratory notebooks for MDS
-- notebooks/clustering: clustering analysis notebooks
-- notebooks/regression: regression model notebooks
-- notebooks/visualization: plotting / visualization notebooks
-- notebooks/misc: uncategorized notebooks kept temporarily
+## Structure
+
+### src/
+- mds: MDS analysis (STEP3.2)
+- clustering: clustering analysis (NbClust, Ward.D2)
+- regression: ML models (PLS, SVM, GPR, Rborist, etc.)
+- preprocessing: data cleaning and feature processing
+- utils: shared helper functions
+
+### notebooks/
+- clustering: clustering experiments and evaluation
+- regression: model experiments (organized by method)
+- visualization: plots for thesis figures
 
 ## Notes
-- Large raw data and most outputs are not intended to be version-controlled as core source assets.
-- This repository was reorganized from lab-server working directories.
+- Large datasets and outputs are excluded
+- This repo focuses on reproducible analysis pipeline
