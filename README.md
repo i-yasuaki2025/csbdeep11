@@ -1,14 +1,19 @@
-# OPV Thesis Code
+# csbdeep11
 
-This repository contains code for my doctoral research on
-organic photovoltaic (OPV) materials and devices.
+Research code migrated from the lab server.
 
-## Structure
-
-- src/mds: MDS analysis (STEP3.2)
-- src/clustering: clustering analysis
-- src/regression: machine learning models (PLS, SVM, etc.)
-- notebooks: experimental and visualization notebooks
+## Directory structure
+- src/mds: MDS-related source code
+- src/clustering: clustering-related source code
+- src/regression: regression / ML model code
+- src/preprocessing: preprocessing scripts
+- src/utils: shared helper code
+- notebooks/mds: exploratory notebooks for MDS
+- notebooks/clustering: clustering analysis notebooks
+- notebooks/regression: regression model notebooks
+- notebooks/visualization: plotting / visualization notebooks
+- notebooks/misc: uncategorized notebooks kept temporarily
 
 ## Notes
-Large datasets are not included.
+- Large raw data and most outputs are not intended to be version-controlled as core source assets.
+- This repository was reorganized from lab-server working directories.
