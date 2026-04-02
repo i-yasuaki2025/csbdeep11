@@ -9,3 +9,5 @@ output/
 results/
 __pycache__/
 .ipynb_checkpoints/
+*-checkpoint.ipynb
+*-checkpoint.ipynb
