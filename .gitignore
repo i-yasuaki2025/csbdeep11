@@ -1,0 +1,11 @@
+*.csv
+*.rds
+*.RData
+*.png
+*.pdf
+*.zip
+data/
+output/
+results/
+__pycache__/
+.ipynb_checkpoints/
